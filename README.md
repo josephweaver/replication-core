@@ -27,7 +27,7 @@ replication-core/
 │   ├── 01_<paper_name>/
 │   │   ├── README.md
 │   │   ├── <paper_name>.pdf
-│   │   ├── claims.md
+│   │   ├── paper_metadata.md
 │   │   ├── notes.md
 │   │   ├── requirements.txt
 │   │   ├── requirements.lock.txt
