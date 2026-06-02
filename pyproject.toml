@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "replication-core"
+version = "0.1.0"
+description = "Paper replication framework for probabilistic embedding and latent-variable research."
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["papers*", "common*"]
+exclude = ["data*", "docs*", "env*"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["papers"]
+
+[tool.uv]
+package = false

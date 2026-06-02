@@ -24,9 +24,8 @@ replication-core/
 │   ├── plotting/
 │   └── utils/
 ├── papers/
-│   ├── 01_<paper_name>/
+│   ├── p01_<author>_<year>/
 │   │   ├── README.md
-│   │   ├── <paper_name>.pdf
 │   │   ├── paper_metadata.md
 │   │   ├── notes.md
 │   │   ├── requirements.txt
@@ -36,6 +35,9 @@ replication-core/
 │   │   │   ├── raw/
 │   │   │   ├── interim/
 │   │   │   └── processed/
+│   │   ├── docs/
+│   │   │   ├── <paper_name>.pdf
+│   │   │   └── <paper_name>.md
 │   │   ├── env/
 │   │   |   └── create_venv.sh
 │   │   ├── src/

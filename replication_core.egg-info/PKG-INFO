@@ -1,0 +1,5 @@
+Metadata-Version: 2.4
+Name: replication-core
+Version: 0.1.0
+Summary: Paper replication framework for probabilistic embedding and latent-variable research.
+Requires-Python: >=3.11
