@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+common/__init__.py
+papers/__init__.py
+papers/p01_vilnis_2015/__init__.py
+papers/p01_vilnis_2015/experiments/e01_toy_training.py
+papers/p01_vilnis_2015/src/__init__.py
+papers/p01_vilnis_2015/src/energies.py
+papers/p01_vilnis_2015/src/gaussian_embedding.py
+papers/p01_vilnis_2015/src/losses.py
+papers/p01_vilnis_2015/tests/test_energies.py
+papers/p01_vilnis_2015/tests/test_gaussian_embedding.py
+papers/p01_vilnis_2015/tests/test_losses.py
+replication_core.egg-info/PKG-INFO
+replication_core.egg-info/SOURCES.txt
+replication_core.egg-info/dependency_links.txt
+replication_core.egg-info/top_level.txt

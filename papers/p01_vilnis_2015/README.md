@@ -17,3 +17,18 @@ Replication levels:
    - check nearest neighbors
    - check variance behavior
    - later compare to entailment results
+
+
+## Checkpoint 1: Toy Training
+
+A three-item toy model was trained with one center item, one positive item, and one negative item.
+
+Result after training:
+
+- loss: 0.0
+- positive energy: 0.2336
+- negative energy: -2.3451
+
+Interpretation:
+
+The expected-likelihood energy and margin ranking loss are sufficient to train a diagonal Gaussian embedding model on a minimal toy example.

@@ -7,7 +7,6 @@
 - [ ] Identify which results require external datasets
 
 ## Phase 1: Minimal implementation
-- [ ] Create `src/replication_core/`
 - [ ] Create Gaussian embedding module
 - [ ] Implement expected likelihood energy
 - [ ] Implement KL divergence
